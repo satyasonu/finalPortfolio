@@ -1,6 +1,7 @@
 import React from "react";
 import realstate from "../assets/assets/realestate.jpg";
 import workimg from "../assets/assets/workImg.jpeg";
+import monsterRolodex from '../assets/Monster-Rolodex.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -26,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: workimg,
+      src: monsterRolodex,
     },
   ];
   return (
